@@ -18,6 +18,8 @@ Gradle
     Shows the version. for instance: Gradle 4.6
     For compiling the app run:
         gradle
+    For running the app's tests run:
+        gradle test
     Run the following command to show the list of gradle tasks available to execute:
         gradle tasks
     One of the options given was:
