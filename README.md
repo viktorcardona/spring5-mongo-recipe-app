@@ -26,3 +26,12 @@ Gradle
     bootRun - Runs this project as a Spring Boot application.
     So for running the Spring Boot execute the command:
         gradle bootRun
+        
+ 
+ MongoDB
+ 
+    The app is configure to work with MongoDB.
+    It uses a embeded mongoDB.
+    When the application runs look for a text like this:
+    Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:50622
+    This is because a different port is used after the app is started. 
